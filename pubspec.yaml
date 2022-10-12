@@ -10,8 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  flutter_getit: ^1.2.1
+  dio: ^4.0.6
   top_snackbar_flutter: ^2.1.1
   loading_animation_widget: ^1.2.0+3
+  flutter_dotenv: ^5.0.2
+  validatorless: ^1.2.3
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +27,9 @@ flutter:
   uses-material-design: true
 
   assets:
+    - .env
     - assets/images/
-    - assets/images/flags
+    - assets/images/flags/
 
   fonts:
     - family: Poppins
